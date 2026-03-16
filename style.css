@@ -1,11 +1,63 @@
+footer{
+  text-align: center;
+}
+
+ul {
+  padding-bottom: 40px;
+}
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  line-height: 150%;
+  background-color: #29292E;
+}
+
 #londres {
-  border-radius: 16px;
+  border-radius: 24px;
   width: 1120px;
   height: 729px;
 }
 
+#page {
+  box-sizing: border-box;
+  width: 1400px;
+  padding: 90px;
+  margin: 48px auto 28px;
+  width: 1300px;
+  background-color: #F5F4F0;
+}
+
+h1, h2{
+  color: #1B1B1B;
+}
+
+p{
+  color: #333333;
+}
+
+section + section {
+  margin-top: 100px;
+}
+
 .locais {
-  border-radius: 16px;
+  border-radius: 24px;
   width: 1120px;
   height: 600px;
 }
+
+.names {
+  color: #E1624F;
+}
+
+.texto {
+  text-align: center;
+}
+
+.listas{
+  font-weight: bold;
+}
+
+.historia{
+  color: #E95E10;
+}
+
